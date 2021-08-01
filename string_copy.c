@@ -32,6 +32,7 @@ void mystrcp (char *s,char *t)
 	}
 }
 
+/* String length Function */
 int mystrlen (char *p)
 {
 	int x = 0;
