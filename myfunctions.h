@@ -1,9 +1,24 @@
+/* String Copy Function */
+void mystrcp (char *s,char *t)
+{
+	int i;
+	int len;
+	len=mystrlen(s);
+
+	for (i = 0; i <= (len-1);i++)
+	{
+	   *t = *s;
+	   s++;
+	   t++;
+	}
+}
+
 /* String compare function */
 
 int mystrcmp (char *str1,char *str2)
 {
 	int len1,len2,y;
-	int i = 0;
+	int i;
 
 	len1 = mystrlen (str1);
 	len2 = mystrlen (str2);
@@ -48,9 +63,9 @@ int mystrlen (char *p)
 			{
 				x++;
 				p++;
-            }
-        }
+            		}
+        	}
             
 		return x;
-    }
+    	}
 }
