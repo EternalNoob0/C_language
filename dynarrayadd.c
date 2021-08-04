@@ -29,6 +29,7 @@ void main ()
 
 }
 
+/* Array INPUT FUNCTION */
 void getarray (int *x, int *y, int r, int c)
 {
 	int i,j;
@@ -57,6 +58,7 @@ void getarray (int *x, int *y, int r, int c)
 
 }
 
+/* ARRAY ADDITION FUNCTION */
 void sumarray (int *x, int *y, int *z, int r, int c)
 {
 	int i,j;
@@ -73,6 +75,7 @@ void sumarray (int *x, int *y, int *z, int r, int c)
 
 }
 
+/* PRINTING OUTPUT OF ARRAY ADDITION */
 void showresult ( int *z, int r, int c)
 {
 	int i,j;
